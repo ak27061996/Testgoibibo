@@ -1,0 +1,57 @@
+Code for same in any language as per your expertise
+
+
+
+Question :
+
+5 person started a new ecommerce startup aiming to beat the giants like Ola and
+Uber  in their own game. Their first goal is to build the best search and recommendation
+engine to make buying experience seamless. 
+Their most valuable product went live last week and
+had a terrible feedback with their recommendation engine going for a toss.
+4 in 10 searches show irrelevant recommendations, though it was as desirable in their test
+environments. Their lean team is looking out for incredible person who could provide them with a
+safety net on every release and help them beat the giants. In short terms they are looking for a
+Giant Slayer like you.
+What is their need?
+Build a solution to validate if the list of recommended items are valid for the search item
+How did they build the platform?
+Both search and recommendation engines are purely AI/ML based.
+Recommendation engine vary on different parameters
+Location
+Users previous search history
+Users in similar location search history
+Users with similar age group search history
+First time users recommendation is location based
+What do they want?
+Build a test safety net on a language of your choice that can make a near accurate validation of
+recommended items.
+Where do you start?
+As a proof of concept show me how you would have validated Ola or uber
+recommendation engines.
+
+
+Question 2:
+Coding: Java/python/Node: Provide implementation of stack using array and list. 
+Why is array not a good solution for implementing a stack? 
+Coding: Solve for maximum area under histogram problem using stacks.
+Difference between linked list and doubly linked list.
+Coding: Provide implementation of a circular linked list
+
+
+
+
+
+
+Question 3-Puzzles:
+1. The King and poison wine bottle problem - that he has 1000 bottles of wine and one of them has been poisoned. He has only 15 prisoners. Logic to locate the poisoned bottle.
+2. Total number of squares in a chess board
+    1. Provide number of edges that will be overlapped
+    2. Provide number of edges that will not be overlapped if any
+
+
+Kindly share your git repos if possible as a solution to these answers
+
+
+
+

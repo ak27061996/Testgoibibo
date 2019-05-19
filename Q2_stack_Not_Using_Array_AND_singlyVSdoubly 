@@ -1,0 +1,37 @@
+ 
+Question: 
+Why is array not a good solution for implementing a stack? 
+
+ Answer:
+ Size of array is limited and predefined.When the size of the stack can vary greatly you waste 
+ space if you have allocate a huge array. So Linked List is preffered.Linked list can have dynamic 
+ data type.But array can store only one data type.
+
+
+
+**************Doubly Vs Single***********************
+
+
+Question:
+Difference between linked list and doubly linked list.
+
+Answer:
+ SINGLE LINKED LIST: 
+1=> Single linked list contains two fields, one data field and  linked field. the data field stored data of the particular node and the linked field stored the address of the next node.
+
+2=> In the single linked list, we can not traverse in both direction. it has only one way traversal process.
+
+3=> the time complexity of insertion and deletion of at any node of the list is more than the double linked list and insertion and deletion in the single linked list is too hard than a doubly linked list.
+
+4=> Less efficient access to elements.
+
+
+DOUBLY LINKED LIST:
+1=> Doubly linked list contains three fields, one data field  and two linked field. the data field stored data at the particular node and the linked field stored the address of the next  and previous node .
+
+2=> we can traverse in both directions left or right. it has two-way traversal process.
+
+3=> the time complexity of insertion and deletion of at any node of the list is less as compared to the single linked list and insertion and deletion in the single linked list is too easy than a doubly linked list.
+
+4=>More efficient access to elements.
+ 

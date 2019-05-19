@@ -1,0 +1,61 @@
+Question:
+The King and poison wine bottle problem - that he has 1000 bottles of wine and one of them has been poisoned. He has only 15 prisoners. Logic to locate the poisoned bottle.
+
+
+Answer:
+
+we need ceil(log2(n)) prisoners required
+As no of bottles is 1000, we distribute the bottle among each prisoners just as binary format,  either we give it or we dont. 
+
+Lets number those prisoners as 1,2,3,...... 
+Also each bottle is numbered 1 to 1000.
+Now poison is distributed as 
+1st bottle to prisoners 1 (binay 000000000000001)
+2nd bottle to prisoners 2(000000000000010)
+3rd bottle ro prisoners 1 and also prisoners 2(000000000000011)
+4th bottle to prisoners 3(000000000000100) 
+5th bottle to prisoners 1 and prisoners 3(000000000000101)
+and
+So on till 1000 bottles gets distributed 
+
+Now no of prisoners died at the end of an hour can tell us which bottle is poisoned. 
+
+For ex: if only prisoners no 1 and prisoners no 3 dies being rest alive we check at what no.  Only this two prisoners were served by same bottle, like here it is bottle no 5.
+
+if 2nd and 1st dies and rest alive then bottle no. 3 has poison.
+
+and so on..  
+
+
+
+
+
+
+
+********************************Next Question*****************************************
+
+
+
+
+
+Question:
+Total number of squares in a chess board
+    1. Provide number of edges that will be overlapped
+    2. Provide number of edges that will not be overlapped if any
+
+Answer:    
+On a square board of n by n cells, there are
+n^2 cells that form a square of size 1x1
+(n-1)^2 cells that form the top-left corner of a square of size 2x2
+(n-2)^2 cells that form the top-left corner of a square of size 3x3
+and so on..
+and in last 
+2^2 cells that form the top-left corner of a square of size n-1 by n-1
+1^2 cell that forms the top-left corner of the entire board of size n by n.
+
+so total num of Squares: SUMMATION(square(1 to n))
+4n edges will not be overlapped.
+remaining will be overlapped.
+
+
+
